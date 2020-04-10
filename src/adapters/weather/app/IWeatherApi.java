@@ -7,6 +7,6 @@ import java.io.IOException;
 
 public interface IWeatherApi {
 
-  JSONObject getWeatherConditionsByLocation(String param);
-  JSONObject createJsonInBigPandaFormat(String weatherInfo);
+  JSONObject getWeatherConditionsByLocation(String param , int zipCode);
+  JSONObject createJsonInBigPandaFormat(String alertType,String weatherInfo);
 }

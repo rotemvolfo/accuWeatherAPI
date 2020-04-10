@@ -1,0 +1,8 @@
+{
+  "Temperature":61,
+  "Rain":"No",
+  "Snow":"No",
+  "host":"weather-56",
+  "Weather Text":"Expect showers early this evening",
+  "Link":"http://www.accuweather.com/en/us/san-francisco-ca/94103/daily-weather-forecast/347629?lang=en-us",
+  "status":"critical"}

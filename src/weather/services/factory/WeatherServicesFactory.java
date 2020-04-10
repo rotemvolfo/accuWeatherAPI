@@ -7,7 +7,6 @@ import adapters.weather.app.IWeatherApi;
 
 public class WeatherServicesFactory {
 
-
     public static IWeatherApi getService(String providerType) {
 
         if (providerType.equalsIgnoreCase("AccuWeather"))

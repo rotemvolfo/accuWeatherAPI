@@ -18,50 +18,40 @@ import java.util.Map;
 public class HttpUtility {
 
 
-
-    private static String returnResponseContent(HttpURLConnection connection)
-    {
-        String readLine = null;
-        StringBuffer response = new StringBuffer();
-        try
-        {
-            BufferedReader in = null;
-            in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
-            while ((readLine = in.readLine()) != null) {
-                response.append(readLine);
-            }
-            in.close();
-            return response.toString();
-        }
-        catch (IOException e) {
-            System.out.println("Failed to read response object");
-        }
-        return null;
-    }
-
-
     public static String getRequest(String url) throws MalformedURLException {
-        URL urlForGetRequest = new URL(url);
         String readLine = null;
-      try {
+        InputStreamReader responseStream=null;
+        int responseCode;
+      try
+      {
+          URL urlForGetRequest = new URL(url);
           HttpURLConnection connection = (HttpURLConnection) urlForGetRequest.openConnection();
           connection.setRequestMethod("GET");
-          int responseCode = connection.getResponseCode();
+          responseCode = connection.getResponseCode();
+          StringBuffer response = new StringBuffer();
+
           if (responseCode == HttpURLConnection.HTTP_OK)
-              return returnResponseContent(connection);
-      }
-      catch(ConnectException connectException) {
-          System.out.println("Get request failed -"+url+connectException.getMessage());
+            responseStream= new InputStreamReader(connection.getInputStream());
+          else
+            responseStream= new InputStreamReader(connection.getErrorStream());
+
+          BufferedReader in = new BufferedReader(responseStream);
+          while ((readLine = in.readLine()) != null) {
+              response.append(readLine);
+          }
+          in.close();
+          return response.toString();
       }
       catch (IOException exception){
-          exception.getMessage();
+          System.out.println("Failed to read response stream");
       }
       return null;
     }
 
     public static void postRequest(String uri ,String token, JSONObject body )
     {
-        try {
+        try
+        {
             HttpClient client = HttpClient.newBuilder().build(); //creating HttpClient to send requests
             HttpRequest request = HttpRequest.newBuilder()
                     .POST(HttpRequest.BodyPublishers.ofString(body.toString()))
@@ -71,9 +61,9 @@ public class HttpUtility {
                     .build();
 
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-            //handle response here...
-            System.out.println(response.statusCode());
-        } catch (Exception ex) {
+            System.out.println("statusCode: "+response.statusCode() +" url "+uri+" body: "+response.body());
+        }
+        catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
     }
