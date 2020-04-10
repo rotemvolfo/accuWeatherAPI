@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd735da5-9732-4e2b-adca-d16f0ffe6f60" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="204">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/weather/services/factory/WeatherServicesFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state>
+              <caret column="33" selection-start-column="33" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,8 +40,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exceptions/ThirdPartyConnectionException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/http/utility/HttpUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+            <state relative-caret-position="-713">
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,19 +63,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/alert">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/adapters/weather/app/AccuWeather.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="80" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="80" />
+            <state relative-caret-position="-255">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,11 +77,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/testWeatherObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+            <state relative-caret-position="-102">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -106,10 +111,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/adapters/weather/app/AccuWeatherAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="-356">
+              <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#382#383#0" expanded="true" />
                 <element signature="e#428#429#0" expanded="true" />
               </folding>
@@ -120,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/integration/big/panda/BigPanda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,17 +152,17 @@
         <option value="$PROJECT_DIR$/src/HttpUtility.java" />
         <option value="$PROJECT_DIR$/src/AccuWeather.java" />
         <option value="$PROJECT_DIR$/src/weather/servise/factory/WeatherServicesFactory.java" />
-        <option value="$PROJECT_DIR$/src/exceptions/ThirdPartyConnectionException.java" />
         <option value="$PROJECT_DIR$/src/http/utility/IUrlStreamSource.java" />
         <option value="$PROJECT_DIR$/tests/locations" />
         <option value="$PROJECT_DIR$/tests/alert" />
-        <option value="$PROJECT_DIR$/src/weather/services/factory/WeatherServicesFactory.java" />
+        <option value="$PROJECT_DIR$/src/adapters/weather/app/IWeatherApi.java" />
+        <option value="$PROJECT_DIR$/src/adapters/weather/app/AccuWeatherAdapter.java" />
+        <option value="$PROJECT_DIR$/src/adapters/weather/app/AccuWeather.java" />
+        <option value="$PROJECT_DIR$/src/exceptions/ThirdPartyConnectionException.java" />
         <option value="$PROJECT_DIR$/src/http/utility/HttpUtility.java" />
         <option value="$PROJECT_DIR$/src/integration/big/panda/BigPanda.java" />
-        <option value="$PROJECT_DIR$/src/adapters/weather/app/AccuWeather.java" />
-        <option value="$PROJECT_DIR$/src/adapters/weather/app/AccuWeatherAdapter.java" />
-        <option value="$PROJECT_DIR$/src/adapters/weather/app/IWeatherApi.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/weather/services/factory/WeatherServicesFactory.java" />
         <option value="$PROJECT_DIR$/tests/testWeatherObject.java" />
       </list>
     </option>
@@ -208,6 +212,18 @@
             <path>
               <item name="bigPanda" type="b2602c69:ProjectViewProjectNode" />
               <item name="bigPanda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="panda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigPanda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigPanda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigPanda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigPanda" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -225,7 +241,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586545511114" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586545513024" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/json-simple-1.1.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -309,7 +325,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586136727390</updated>
-      <workItem from="1586136730302" duration="90606000" />
+      <workItem from="1586136730302" duration="90793000" />
     </task>
     <servers />
   </component>
@@ -346,10 +362,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90606000" />
+    <option name="totallyTimeSpent" value="90793000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -357,11 +373,11 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.11940298" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.11940298" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.43555555" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.43555555" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -422,13 +438,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/integration/big/panda/BigPanda.java</url>
-          <line>17</line>
+          <line>16</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/integration/big/panda/BigPanda.java</url>
-          <line>18</line>
+          <line>17</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
@@ -440,61 +456,61 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/http/utility/HttpUtility.java</url>
-          <line>63</line>
+          <line>56</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tests/testWeatherObject.java</url>
-          <line>42</line>
+          <line>41</line>
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tests/testWeatherObject.java</url>
-          <line>37</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tests/testWeatherObject.java</url>
-          <line>48</line>
+          <line>47</line>
           <properties />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tests/testWeatherObject.java</url>
-          <line>44</line>
+          <line>43</line>
           <properties />
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tests/testWeatherObject.java</url>
-          <line>45</line>
+          <line>44</line>
           <properties />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tests/testWeatherObject.java</url>
-          <line>52</line>
+          <line>51</line>
           <properties />
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/adapters/weather/app/AccuWeather.java</url>
-          <line>24</line>
+          <line>23</line>
           <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/adapters/weather/app/AccuWeather.java</url>
-          <line>18</line>
+          <line>17</line>
           <properties />
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/adapters/weather/app/AccuWeather.java</url>
-          <line>85</line>
+          <line>84</line>
           <properties />
           <option name="timeStamp" value="58" />
         </line-breakpoint>
@@ -727,56 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/integration/big/panda/BigPanda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/testWeatherObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/weather/services/factory/WeatherServicesFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/http/utility/HttpUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/adapters/weather/app/IWeatherApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -787,19 +753,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exceptions/ThirdPartyConnectionException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/adapters/weather/app/AccuWeatherAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        <state relative-caret-position="-356">
+          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#382#383#0" expanded="true" />
             <element signature="e#428#429#0" expanded="true" />
           </folding>
@@ -808,11 +766,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/adapters/weather/app/AccuWeather.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="80" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="80" />
+        <state relative-caret-position="-255">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exceptions/ThirdPartyConnectionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/http/utility/HttpUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-713">
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integration/big/panda/BigPanda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weather/services/factory/WeatherServicesFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/testWeatherObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
