@@ -1,4 +1,4 @@
-  Code structure, design patterns & readability
+  Code structure and design patterns 
   
 I Implemented a wrapper class (AdapterAccuWeather ) as an adapter for the calls to the AccuWeather API. 
 The adapter class creates an extra layer between the 3rd party and the app that allows extending the code and making future changes without changing the existing code.
