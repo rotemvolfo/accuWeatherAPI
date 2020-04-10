@@ -3,7 +3,6 @@ import exceptions.ThirdPartyConnectionException;
 import http.utility.HttpUtility;
 import org.json.*;
 
-
 public class AccuWeather {
 
     private final String  BASE_URL_ACCU_WEATHER = "http://dataservice.accuweather.com/";
@@ -63,7 +62,7 @@ public class AccuWeather {
 
                //------------------------------------------ data from headLine section ------
                JSONObject tempHeadline = weatherObj.getJSONObject("Headline");
-               data.put("host", "weather"+tempHeadline.getLong("EffectiveEpochDate")%10000); // create difference hosts  to allow correlation by zip code
+               data.put("host", "weather"+tempHeadline.getLong("EffectiveEpochDate")%10000); // create difference hosts  to allow correlations by zip code
                data.put("Weather Text", tempHeadline.get("Text"));
                data.put("Link", tempHeadline.get("Link"));
                //-----------------------------------------DailyForecasts---------

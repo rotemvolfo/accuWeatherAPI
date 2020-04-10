@@ -14,7 +14,6 @@ import org.mockito.MockitoAnnotations;
 import java.io.*;
 import org.json.simple.parser.JSONParser;
 
-
 public class testWeatherObject {
 
     @Mock

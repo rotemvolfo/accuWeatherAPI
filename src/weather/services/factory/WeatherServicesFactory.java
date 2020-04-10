@@ -1,6 +1,4 @@
 package weather.services.factory;
-
-
 import adapters.weather.app.AccuWeather;
 import adapters.weather.app.AccuWeatherAdapter;
 import adapters.weather.app.IWeatherApi;

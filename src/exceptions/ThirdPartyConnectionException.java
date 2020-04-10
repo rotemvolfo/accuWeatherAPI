@@ -1,10 +1,9 @@
 package exceptions;
 
-public class ThirdPartyConnectionException extends Exception {
-
-
-
-    public ThirdPartyConnectionException(String message) {
+public class ThirdPartyConnectionException extends Exception
+{
+    public ThirdPartyConnectionException(String message)
+    {
         super(message);
     }
 }

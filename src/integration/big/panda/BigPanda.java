@@ -3,7 +3,6 @@ import http.utility.HttpUtility;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-
 public class BigPanda {
 
     private final String  BASE_URL_BIG_PANDA = "https://api.bigpanda.io/data/v2/alerts";

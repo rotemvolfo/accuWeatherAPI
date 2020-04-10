@@ -1,13 +1,8 @@
 package adapters.weather.app;
-
 import exceptions.ThirdPartyConnectionException;
-import http.utility.HttpUtility;
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import javax.inject.Inject;
-import java.io.IOException;
 
 public class AccuWeatherAdapter implements IWeatherApi {
 
