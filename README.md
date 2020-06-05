@@ -26,8 +26,4 @@ Enrichment :
 
 I used the enrichments to add additional information about the snow and rain tags and added special instructions based on their values.
    
-Additional notes. 
 
-I wasn’t able to retrieve the wether condition of neighboring cities of San Francisco.
-The “city neighbors API”  call return locations inside the city or really close to the city. 
-I thought about looking for neighboring cities weather the same as I did for San Francisco, but I didn’t want to do lots of API calls and adding a code that does more of the same. Instead, I  focused more on the design, tests and working with big panda interface.
